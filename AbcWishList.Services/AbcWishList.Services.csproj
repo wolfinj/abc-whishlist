@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\AbcWishList.Data\AbcWishList.Data.csproj" />
+    </ItemGroup>
+
 </Project>

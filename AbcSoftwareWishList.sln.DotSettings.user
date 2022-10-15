@@ -1,0 +1,8 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4ff74f53_002D7be6_002D4e4d_002D8491_002Dd26caa008811/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ValidationTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::6726D959-53DC-4B9F-B5CA-865D0D65716B::net6.0::AbcWishList.Tests.ValidationTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::6726D959-53DC-4B9F-B5CA-865D0D65716B::net6.0::AbcWishList.Tests.ConvertExtensionMethodsTests.ToItem_PassItemRequest_GetItem&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::6726D959-53DC-4B9F-B5CA-865D0D65716B::net6.0::AbcWishList.Tests.ConvertersTests.GetNameStingFromUserList_PassListOfUsers_GetExpectedString&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

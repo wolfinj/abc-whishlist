@@ -1,6 +1,6 @@
-namespace AbcWishList.Core.Models;
+namespace AbcSoftwareWishList.Models;
 
-public class Item : Entity
+public class ItemRequest 
 {
     public string Name { get; set; }
     public string? Url { get; set; }

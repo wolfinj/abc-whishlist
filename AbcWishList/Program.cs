@@ -1,4 +1,8 @@
+using AbcSoftwareWishList.Helpers;
+using AbcWishList.Core.Models;
+using AbcWishList.Core.Services;
 using AbcWishList.Data;
+using AbcWishList.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +15,10 @@ builder.Services.AddDbContext<WishListDbContext>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddScoped<IEntityService<Item>, EntityService<Item>>();
+builder.Services.AddScoped<IWishListDbContext, WishListDbContext>();
+builder.Services.AddSingleton(ConvertExtensionMethods.CreateMapper());
 
 var app = builder.Build();
 

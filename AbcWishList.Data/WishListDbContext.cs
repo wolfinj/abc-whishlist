@@ -4,10 +4,9 @@ using Microsoft.Extensions.Configuration;
 
 namespace AbcWishList.Data;
 
-public class WishListDbContext : DbContext
+public class WishListDbContext : DbContext, IWishListDbContext
 {
     public DbSet<Item> WishList { get; set; }
-    public DbSet<User> Users { get; set; }
 
     private readonly IConfiguration _configuration;
 
@@ -19,5 +18,10 @@ public class WishListDbContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder options)
     {
         options.UseSqlServer(_configuration.GetConnectionString("AbcWishList"));
+    }
+
+    public Task<int> SaveChangesAsync()
+    {
+        return base.SaveChangesAsync();
     }
 }

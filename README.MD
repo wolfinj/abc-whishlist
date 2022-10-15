@@ -112,9 +112,9 @@
 |:----------|:---------|:-----------------------------|
 | `users`   | `user[]` | **Required**. array of users |
 | `name`    | `string` | **Required**. name of user   |
-| `email`   | `string` | **Required**. Email of user  |
-| `type`    | `string` | **Required**. Email of user  |
-| `id`      | `int`    | **Required**. Email of user  |
+| `email`   | `string` | **Required**. e-mail of user |
+| `type`    | `string` | **Required**. type of user   |
+| `id`      | `int`    | **Required**. id of user     |
 
 
 

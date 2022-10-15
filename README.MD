@@ -86,7 +86,15 @@
 
 <br>
 
-### Wishlist operations
+### User operations
+
+<br>
+
+#### Get user names from json request
+```
+  POST /api/item/
+```
+
 ```json
 {
   "users": [
